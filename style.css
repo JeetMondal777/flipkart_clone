@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#header .flipkartLogo{
+    height: 80px;
+    width: 170px;
+    position: absolute;
+    left: 100px;
+}
+
+#header .search{
+    height: 50px;
+    width: 700px;
+    position: absolute;
+    left:300px;
+    top: 15px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(235, 244, 244);
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(235, 244, 244) ;
+}
+
+#header .login{
+    position: absolute;
+    left: 1060px;
+    top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#header .cart{
+    position: absolute;
+    left: 1180px;
+    top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#header .seller{
+    position: absolute;
+    left: 1280px;
+    top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#header .loginImg{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 1030px;
+    top: 27px;
+    
+}
+#header .cartImg{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 1145px;
+    top: 23px;
+}
+#header .storeImg{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    left: 1250px;
+    top: 24px;
+}
+
+#banner .bigBillionDay{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+}
+
+#orderSec{
+    width: 100%;
+    position: absolute;
+    top: 320px;
+}
+
+#orderSec a{
+    text-decoration: none;
+    color: black;
+}
+
+.Ebanner{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+#gadgets{
+    position: absolute;
+    width: 100%;
+    top: 550px;
+    
+}
+
+#gadgets a{
+    text-decoration: none;
+    color: black;
+}
+
+#gadgets img:hover{
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#shirtsSec{
+    position: absolute;
+    width: 100%;
+    top: 900px;
+    font-size: 17px;
+    
+}
+
+#shirtsSec a{
+    text-decoration: none;
+    color: black;
+}
+
+#shirtsSec img:hover{
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shirtsBanner{
+    position: absolute;
+    top: 850px;
+    left: 30px;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.mobBanner{
+    position: absolute;
+    top: 1290px;
+    left: 30px;
+    font-size:30px ;
+    letter-spacing: 4px;
+}
+
+#mobileSec{
+    position: absolute;
+    width: 100%;
+    top: 1350px;
+    font-size: 17px;
+}
+
+#mobileSec a{
+    text-decoration: none;
+    color: black;
+}
+
+#mobileSec a:hover{
+    /* background-color: rgb(27, 29, 29);  */
+    box-shadow: 0 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    position: absolute;
+    display: inline-block;
+    right: 40px;
+    top: 26px;
+    
+}
+
+.menu .menuContent {
+    display: none;
+    position: absolute;
+    right: 2px;
+    background-color: rgb(235, 244, 244);
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    
+}
+
+.menuContent a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.menu:hover .menuContent {
+    display: block;
+    block-size: auto;
+}
+
+.menu .menuContent p:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    background-color: rgb(184, 199, 199);
+    
+}
+
+
+
+
